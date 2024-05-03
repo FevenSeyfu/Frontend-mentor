@@ -137,7 +137,8 @@ nav ul li button{
 
 .redirect{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
+  gap: 1rem;
   margin-top: 0.5rem;
   overflow: hidden;
 }

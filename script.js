@@ -1,12 +1,13 @@
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const themeIcon = document.getElementById("toggle-icon");
-const projectsUl = document.getElementById("projects")
+const projectsUl = document.getElementById("projects");
 
 // fetch and display projects
 fetch("data.json")
   .then((response) => response.json())
   .then((data) => {
     const projects = data
+      .sort((a, b) => a.title.localeCompare(b.title))
       .map(
         (project) => `
             <li class="project-card">
@@ -37,20 +38,20 @@ fetch("data.json")
 
 // theme switcher
 const changeTheme = (e) => {
-    const projectCards = document.querySelectorAll(".project-card");
+  const projectCards = document.querySelectorAll(".project-card");
   if (themeIcon.src.includes("light")) {
     themeIcon.src = "src/assets/icons/theme_dark.png";
     document.body.style.backgroundColor = "#141414";
     document.body.style.color = "white";
-    projectCards.forEach(projectCard => {   
-        projectCard.style.backgroundColor = "#1e1e1e"
+    projectCards.forEach((projectCard) => {
+      projectCard.style.backgroundColor = "#1e1e1e";
     });
   } else {
     themeIcon.src = "src/assets/icons/theme_light.png";
     document.body.style.backgroundColor = "#f5f4fe";
     document.body.style.color = "black";
-    projectCards.forEach(projectCard => {   
-        projectCard.style.backgroundColor = "white"
+    projectCards.forEach((projectCard) => {
+      projectCard.style.backgroundColor = "white";
     });
   }
 };
