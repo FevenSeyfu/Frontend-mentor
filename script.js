@@ -52,7 +52,6 @@ const changeTheme = (e) => {
     projectCards.forEach(projectCard => {   
         projectCard.style.backgroundColor = "white"
     });
-   
   }
 };
 themeToggleBtn.addEventListener("click", changeTheme);
