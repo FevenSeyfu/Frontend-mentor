@@ -1,49 +1,113 @@
-![screenshots]()
-# Frontend Mentor Solutions
+![Frontend Mentor portfolio](/Demo.gif)
 
-This is a  Repository to showcase my frontend Mentor solutions.ranging on different levels of complexity.
+# Frontend Mentor : Solutions portolio
+<!-- TABLE OF CONTENTS -->
 
-## Table of contents
+# 📗 Table of Contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Overview
+<!-- PROJECT DESCRIPTION -->
 
-### The challenge
+## About the Project
 
+**Frontend Mentor Solutions** This is my collection of frontend Mentor solutions, showing projects of different difficulty levels. Dive in to see how I've tackled each challenge using various technologies and frameworks.
 
-## My process
+### Built With
 
-### Built with
+#### Tech Stack
 
 - Semantic HTML5 markup
-- CSS3
-- Javascript
+- CSS custom properties
+- Flexbox
+- CSS Grid
 - Mobile-first workflow
 
-### What I learned
+#### Key Features
+
+- **Projects Card:** Projects card to give brief description of challenge and demo's image 
+- **Theme Switcher:** Clickable theme switcher between dark and light mode.
+
+### Live Demo
+
+- [Live Demo Link](https://fevenseyfu.github.io/Frontend-mentor/)
+
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+````sh
+git clone https://github.com/FevenSeyfu/Frontend-mentor.git
+````
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👤 Author <a name="author"></a>
+
+- GitHub: [@FevenSeyfu](https://github.com/FevenSeyfu)
+- Medium: [@fevenseyfu](https://fevenseyfu.medium.com)
+- LinkedIn: [fevenseyfu](https://www.linkedin.com/in/fevenseyfu/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
 
 
-### Continued development
+- [ ] **Blog and video walk through:** I will add a blog  and video explaining my solution.
+- [ ] **Add filter and search:** As I add more solutions I will include search and filtering method.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--  -->
+<!-- CONTRIBUTING -->
 
-### Useful resources
+## 🤝 Contributing <a name="contributing"></a>
 
-## Author
+Contributions, issues, and feature requests are welcome!
 
-- Website - [Feven Seyfu](https://fevenseyfu.tech)
-- Frontend Mentor - [@FevenSeyfu](https://www.frontendmentor.io/profile/FevenSeyfu)
-- Twitter - [@FevenSeyfu](https://www.twitter.com/FevenSeyfu)
+Feel free to check the [issues page](../../issues/).
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you can give it a star and any feedback is appreciated.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank for those who have tested and gave me feedback
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
