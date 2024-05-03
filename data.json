@@ -70,5 +70,14 @@
     "code_link": "https://github.com/FevenSeyfu/Shortly-url-shortner",
     "challenge_link": "https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G",    
     "img" : "src/assets/images/URL_shortening.jpg"
+  },
+  {
+    "title": "Space tourism multi-page website",
+    "technologies": ["React", "TailwindCSS", "Vite"],
+    "description": " The challenge is to build a multi-page space tourism website, with each page having tabs and carousels to show different information.",
+    "demo_link": "https://space-tourism-feven.netlify.app/",
+    "code_link": "https://github.com/FevenSeyfu/space-tourism-website",
+    "challenge_link": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3",    
+    "img" : "src/assets/images/Space tourism_multi_website.jpg"
   }
 ]
