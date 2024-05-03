@@ -1,34 +1,101 @@
 /* - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
 - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)  */
-/* - Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
-- Weights: 300, 400, 600 */
 
-:root{
-    --desaturated-red: var('hsl(0, 36%, 70%)');
-    --soft-red:var('hsl(0, 93%, 68%)');
-    --dark-red: var('hsl(0, 6%, 24%)');
+:root {
+  --desaturated-red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  --dark-grayish-red: hsl(0, 6%, 24%);
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    font-size: 16px;
-    /* font-family: 'Josefin','sans'; */
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
+nav {
+  width: 100%;
+  height: 84px;
+  padding: 28px 0 28px 32px;
+}
+.nav > image {
+  padding: 28px;
+  padding-left: 32px;
+  height: 28px;
+  width: 103px;
+}
 
-@media only screen and (max-width: 768px) {
-    header{
-        width: 100%;
-    }
-    .header image{
-        
-    }
+.hero-image {
+  width: 100%;
+  height: 250px;
+}
+section {
+  padding: 15% 2rem;
+  text-align: center;
+}
+
+section > h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--dark-grayish-red);
+  margin: 22px;
+}
+
+section > h1 > span {
+  color: var(--desaturated-red);
+}
+
+.description {
+  width: 303px;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  margin-bottom: 34px;
+}
+
+form {
+  width: 315px;
+  height: 48px;
+  position: relative;
+}
+
+form > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  padding-left: 24px;
+  border: 0.2px solid #dbcbcc;
+}
+
+form > input::placeholder{
+    color: #dbcbcc;
+}
+
+form > button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 67px;
+  height: 48px;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  box-shadow: 5px 5px 15px -3px rgb(219,203,204);
+  border: var(--soft-red);
+  border-radius: 24px;
+}
+.error-message {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 768px) {
 }
 
 /* footer */
