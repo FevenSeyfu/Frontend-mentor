@@ -1,5 +1,5 @@
 ![screenshots]()
-# Frontend Menntor Solutions
+# Frontend Mentor Solutions
 
 This is a  Repository to showcase my frontend Mentor solutions.ranging on different levels of complexity.
 
