@@ -39,14 +39,14 @@ fetch("data.json")
 const changeTheme = (e) => {
     const projectCards = document.querySelectorAll(".project-card");
   if (themeIcon.src.includes("light")) {
-    themeIcon.src = "./assets/icons/theme_dark.png";
+    themeIcon.src = "src/assets/icons/theme_dark.png";
     document.body.style.backgroundColor = "#141414";
     document.body.style.color = "white";
     projectCards.forEach(projectCard => {   
         projectCard.style.backgroundColor = "#1e1e1e"
     });
   } else {
-    themeIcon.src = "./assets/icons/theme_light.png";
+    themeIcon.src = "src/assets/icons/theme_light.png";
     document.body.style.backgroundColor = "#f5f4fe";
     document.body.style.color = "black";
     projectCards.forEach(projectCard => {   
