@@ -40,7 +40,7 @@ header {
   height: 250px;
 }
 section {
-  padding: 15% 2rem;
+  padding: 10%;
   text-align: center;
 }
 
@@ -60,7 +60,6 @@ section > h1 > span {
 }
 
 .description {
-  width: 303px;
   font-size: 18px;
   font-weight: 200;
   letter-spacing: -0.05em;
@@ -68,7 +67,6 @@ section > h1 > span {
 }
 
 form {
-  width: 315px;
   height: 48px;
   position: relative;
 }
@@ -96,8 +94,17 @@ form > button {
   border: var(--soft-red);
   border-radius: 24px;
 }
+form> button:hover{
+   background-image: linear-gradient(135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
+}
 .error-message {
   visibility: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+  #hero-image {
+    height: 300px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
