@@ -13,6 +13,7 @@
 }
 
 body {
+  position: relative;
   width: 100vw;
   height: 100vh;
   font-size: 16px;
@@ -101,9 +102,31 @@ form> button:hover{
   visibility: hidden;
 }
 
+/* footer */
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media only screen and (min-width: 600px) {
   #hero-image {
     height: 300px;
+  }
+  footer{
+    width: 60%;
+  }
+  .attribution{
+    font-size: 15px;
   }
 }
 
@@ -124,8 +147,10 @@ form> button:hover{
     margin-left: 160px;
     text-align: left;
     width: 31.4%;
-    padding: 13% 0;
-    gap: 2rem;
+    padding: 8% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   section>h1{
     text-align: left;
@@ -149,11 +174,4 @@ form> button:hover{
   }
 }
 
-/* footer */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
