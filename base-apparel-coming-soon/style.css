@@ -102,11 +102,13 @@ form > button {
 }
 form> button:hover{
   background: rgb(250,220,220);
-  background: linear-gradient(90deg, rgb(143, 100, 100) 0%, rgba(255,204,204,1) 100%);
+  background: linear-gradient(90deg, hsl(0, 80%, 86%), 0%, rgba(255,204,204,1) 100%);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.3) 0px 16px 48px;
   cursor: pointer;
 }
-
+form >button:disabled{
+  cursor: not-allowed;
+}
 form>input.error{
   border: 2.5px solid var(--soft-red);
   background-image: url('./images/icon-error.svg'); 
@@ -114,9 +116,13 @@ form>input.error{
   background-position: right 7rem center;
 }
 
-#error-message {
+form input.error:focus {
+  outline: none;
+  border: 3px solid var(--soft-red);
+}
+
+#message {
   padding: 1rem 1.5rem;
-  color: var(--soft-red);
 }
 
 /* footer */
@@ -150,8 +156,9 @@ footer{
 @media only screen and (min-width: 768px) {
   body{
     background-image: url('./images/bg-pattern-desktop.svg');
-    background-position: left center;
+    background-position:  left bottom;
     background-repeat: no-repeat;
+    background-size: 57.6% 100%;
   }
   header{
     width: 57%;
