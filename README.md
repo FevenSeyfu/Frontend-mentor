@@ -3,7 +3,7 @@
 # Frontend Mentor : Solutions portolio
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+## 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -62,9 +62,9 @@ git clone https://github.com/FevenSeyfu/Frontend-mentor.git
 
 ## 👤 Author <a name="author"></a>
 
-- GitHub: [@FevenSeyfu](https://github.com/FevenSeyfu)
-- Medium: [@fevenseyfu](https://fevenseyfu.medium.com)
-- LinkedIn: [fevenseyfu](https://www.linkedin.com/in/fevenseyfu/)
+- Website - [Feven Seyfu](https://fevenseyfu.tech/)
+- Frontend Mentor - [@FevenSeyfu](https://www.frontendmentor.io/profile/FevenSeyfu)
+- Linkedin - [Feven Seyfu](https://www.linkedin.com/in/fevenseyfu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
