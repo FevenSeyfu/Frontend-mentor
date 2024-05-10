@@ -79,5 +79,14 @@
     "code_link": "https://github.com/FevenSeyfu/space-tourism-website",
     "challenge_link": "https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3",    
     "img" : "src/assets/images/Space tourism_multi_website.jpg"
+  },
+  {
+    "title": "Base Apparel coming soon page",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": "The challenge is to build a responsive coming soon page with a email input form, that has validation.",
+    "demo_link": "https://base-apparel-coming-soon-page-fb.netlify.app/",
+    "code_link": "https://github.com/FevenSeyfu/Frontend-mentor/tree/main/base-apparel-coming-soon",
+    "challenge_link": "https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0",    
+    "img" : "src/assets/images/Base-apparel-coming-soon.jpg"
   }
 ]
