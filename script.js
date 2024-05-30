@@ -42,10 +42,12 @@ fetch("data.json")
 // theme switcher
 const changeTheme = (e) => {
   const projectCards = document.querySelectorAll(".project-card");
+  const allDescription = document.querySelectorAll(".description");
   if (themeIcon.src.includes("light")) {
     themeIcon.src = "src/assets/icons/theme_dark.png";
     document.body.style.backgroundColor = "#141414";
     document.body.style.color = "white";
+    allDescription.forEach((description)=>{description.style.color = "white"});
     projectCards.forEach((projectCard) => {
       projectCard.style.backgroundColor = "#1e1e1e";
     });
