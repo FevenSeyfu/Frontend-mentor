@@ -1,6 +1,7 @@
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const themeIcon = document.getElementById("toggle-icon");
-const projectsUl = document.getElementById("projects");
+const projectsUl = document.getElementById("projects-list");
+const counter = document.querySelector('.counter');
 
 // fetch and display projects
 fetch("data.json")
@@ -33,6 +34,8 @@ fetch("data.json")
       )
       .join("");
     projectsUl.innerHTML = projects;
+    const totalSolution = data.length
+    counter.innerHTML =   `Completed (${totalSolution})`
   })
   .catch((error) => console.error(error));
 

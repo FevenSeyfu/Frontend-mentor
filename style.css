@@ -67,6 +67,13 @@ nav ul li button{
   border: none;
 }
 
+.counter{
+  color: var(--primary-blue);
+  font-size: 18px;
+  text-align: right;
+  margin-right: 3.5rem;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
