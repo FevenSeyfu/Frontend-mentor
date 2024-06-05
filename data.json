@@ -108,6 +108,15 @@
     "code_link": "https://github.com/FevenSeyfu/sunnyside-agency-landing-page",
     "challenge_link": "https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef",
     "img": "src/assets/images/sunny-side.jpg"
-  }
-
+  },
+  {
+    "id": 12,
+    "title": "Coding bootcamp testimonials slider",
+    "technologies": ["HTML", "CSS", "JS"],
+    "description": "The challenge is to build a landing page for bootcamp testimonial slider with navigation to the slider using mouse or keyboard",
+    "demo_link": "https://codingbootcamp-testimonial-slider.netlify.app/",
+    "code_link": "https://github.com/FevenSeyfu/coding-bootcamp-testimonials-slider",
+    "challenge_link": "https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL",
+    "img": "src/assets/images/Coding bootcamp testimonials slider.jpg"
+  } 
 ]
