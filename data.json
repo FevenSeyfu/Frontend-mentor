@@ -118,5 +118,25 @@
     "code_link": "https://github.com/FevenSeyfu/coding-bootcamp-testimonials-slider",
     "challenge_link": "https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL",
     "img": "src/assets/images/Coding bootcamp testimonials slider.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Blog Preview Card",
+    "technologies": ["HTML", "CSS"],
+    "description": "The challenge is to build blog preview card with hover and focus states for all interactive elements",
+    "demo_link": "https://blog-preview-frontendmentor.netlify.app/",
+    "code_link": "https://github.com/FevenSeyfu/blog-preview-card",
+    "challenge_link": "https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS",
+    "img": "src/assets/images/blog-preview.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Time Tracking Dashboard",
+    "technologies": ["React", "CSS", "Vite"],
+    "description": "The challenge is to build a time tracking dashboard that fetches and display data from json and switch between viewing Daily, Weekly, and Monthly stats",
+    "demo_link": "https://time-tracking-dashboard-ten-xi.vercel.app/",
+    "code_link": "https://github.com/FevenSeyfu/time-tracking-dashboard",
+    "challenge_link": "https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw",
+    "img": "src/assets/images/time-tracking-dashboard.jpg"
   } 
-]
+]  
